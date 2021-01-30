@@ -1,13 +1,11 @@
 # Author: Enda Lynch
 # Use a variable to greet user
 
+#Assign name and age
+
 name = 'Enda'
-print ('Hello ' + name)
+age = 33
 
-# this wont work
-
-age = 34
-#print ('Yor age is ' + age)
 
 #print ('your age is ' + str(age) )
 print ( 'Hello {} \t Your age is {}' .format(name, age))
