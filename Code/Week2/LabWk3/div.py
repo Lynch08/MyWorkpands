@@ -7,7 +7,7 @@
 X = int(input('Enter number: '))
 Y = int(input('Divided by: '))
 
-# // gives divides the integers and % gives the remainder
+# '//' gives divides the integers and '%' gives the remainder
 B = X//Y
 C = X%Y
 
