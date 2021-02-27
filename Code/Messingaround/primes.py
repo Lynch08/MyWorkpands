@@ -2,7 +2,7 @@
 #Author: Enda Lynch
 
 primes = []
-upto = 100000
+upto = 1000
 
 for candidate in range(2, upto):
     #print (candidate) 
