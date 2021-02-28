@@ -7,8 +7,8 @@ def cube (num):
     return num ** 3
 
 
-var = cube(10)
-print(var)
+#var = cube(10)
+#print(var)
 
 for e in range(1,11):
     print (e, 'cubed is:', cube(e))
