@@ -2,11 +2,11 @@
 #(count.txt). test the program by calling the function and outputting the number.
 #Author: Enda Lynch
 #REF: Labsheet for Wk07, Andrew Beatty
-import os
-os.chdir('/Topic07files/count.txt')
-f = open('count.txt', 'r')
 
-filename = ".\count.txt"
+#import os
+
+
+filename = ".\Topic07files\count.txt"
 
 def readNumber():
     with open (filename) as f:
