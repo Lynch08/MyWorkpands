@@ -6,15 +6,15 @@
 #import os
 
 
-filename = ".\Topic07files\count.txt"
+filename = ".\Topic07files\count.txt"           #file loc and name
 
-def readNumber():
-    with open (filename) as f:
-        number = int(f.read())
-        return number
+def readNumber():                               #create function to read file
+    with open (filename) as f:                  # open file
+        number = int(f.read())                  #read file
+        return number                           #retuen valuse in file
 
 #test
-num = readNumber()
+num = readNumber()                              
 print (num)
 
 
