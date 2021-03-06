@@ -11,7 +11,7 @@ filename = ".\Topic07files\count.txt"           #file loc and name
 def readNumber():                               #create function to read file
     with open (filename) as f:                  # open file
         number = int(f.read())                  #read file
-        return number                           #retuen valuse in file
+        return number                           #retuen values in file
 
 #test
 num = readNumber()                              

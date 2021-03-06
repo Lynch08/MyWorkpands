@@ -5,10 +5,10 @@
 filename = ".\Topic07files\count.txt"
 
 def writeNumber (number):
-    with open (filename, "at") as f:
+    with open (filename, "wt") as f:
 
         f.write(str(number))
 
 
 #test
-writeNumber("\n 50000000")
+writeNumber("0")
